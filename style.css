@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
      font-family: Arial, sans-serif;
      background-color: #f8f8f8;
@@ -97,16 +96,6 @@ p {
 }
 
 .skills ul li {
-     margin-bottom: 10px;
-}
-
-/* Courses Section Styles */
-.courses ul {
-     list-style: none;
-     padding-left: 0;
-}
-
-.courses ul li {
      margin-bottom: 10px;
 }
 
