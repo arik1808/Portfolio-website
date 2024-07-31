@@ -1,9 +1,10 @@
-/* style.css */
-
 /* Global Styles */
 body {
      font-family: Arial, sans-serif;
      background-color: #f8f8f8;
+     color: #333;
+     margin: 0;
+     padding: 0;
 }
 
 .container {
@@ -16,6 +17,8 @@ body {
 header {
      background-color: #007bff;
      color: #fff;
+     text-align: center;
+     padding: 30px 20px;
 }
 
 .profile-photo {
@@ -27,12 +30,13 @@ header {
 }
 
 h1 {
-     font-size: 24px;
+     font-size: 28px;
      margin-bottom: 5px;
 }
 
 p {
      font-size: 16px;
+     margin: 5px 0;
 }
 
 /* Contact Info Styles */
@@ -40,9 +44,17 @@ p {
      margin-top: 20px;
 }
 
+.contact-info p {
+     margin: 5px 0;
+}
+
 .contact-info a {
      color: #fff;
      text-decoration: none;
+}
+
+.contact-info a:hover {
+     text-decoration: underline;
 }
 
 /* Profile Section Styles */
@@ -51,8 +63,11 @@ p {
 }
 
 .section-title {
-     font-size: 20px;
-     margin-bottom: 10px;
+     font-size: 24px;
+     margin-bottom: 15px;
+     border-bottom: 2px solid #007bff;
+     display: inline-block;
+     padding-bottom: 5px;
 }
 
 /* Education Section Styles */
@@ -61,10 +76,28 @@ p {
      padding-left: 0;
 }
 
+.education ul li {
+     margin-bottom: 20px;
+}
+
+.education ul li strong {
+     display: block;
+     font-size: 18px;
+     margin-bottom: 5px;
+}
+
+.education ul li p {
+     margin: 5px 0;
+}
+
 /* Skills Section Styles */
 .skills ul {
      list-style: none;
      padding-left: 0;
+}
+
+.skills ul li {
+     margin-bottom: 10px;
 }
 
 /* Courses Section Styles */
@@ -73,8 +106,19 @@ p {
      padding-left: 0;
 }
 
+.courses ul li {
+     margin-bottom: 10px;
+}
+
 /* Footer Styles */
 footer {
      background-color: #333;
      color: #fff;
+     text-align: center;
+     padding: 10px 20px;
+     margin-top: 30px;
+}
+
+footer p {
+     margin: 0;
 }
