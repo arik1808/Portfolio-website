@@ -6,11 +6,13 @@ body {
      padding: 0;
 }
 
+
 .container {
      max-width: 800px;
      margin: 0 auto;
      padding: 20px;
 }
+
 
 /* Header Styles */
 header {
@@ -20,6 +22,7 @@ header {
      padding: 30px 20px;
 }
 
+
 .profile-photo {
      width: 150px;
      height: 150px;
@@ -28,38 +31,46 @@ header {
      margin-bottom: 10px;
 }
 
+
 h1 {
      font-size: 28px;
      margin-bottom: 5px;
 }
+
 
 p {
      font-size: 16px;
      margin: 5px 0;
 }
 
+
 /* Contact Info Styles */
 .contact-info {
      margin-top: 20px;
 }
 
+
 .contact-info p {
      margin: 5px 0;
 }
+
 
 .contact-info a {
      color: #fff;
      text-decoration: none;
 }
 
+
 .contact-info a:hover {
      text-decoration: underline;
 }
+
 
 /* Profile Section Styles */
 .profile {
      margin-top: 30px;
 }
+
 
 .section-title {
      font-size: 24px;
@@ -69,15 +80,18 @@ p {
      padding-bottom: 5px;
 }
 
+
 /* Education Section Styles */
 .education ul {
      list-style: none;
      padding-left: 0;
 }
 
+
 .education ul li {
      margin-bottom: 20px;
 }
+
 
 .education ul li strong {
      display: block;
@@ -85,9 +99,11 @@ p {
      margin-bottom: 5px;
 }
 
+
 .education ul li p {
      margin: 5px 0;
 }
+
 
 /* Skills Section Styles */
 .skills ul {
@@ -95,9 +111,11 @@ p {
      padding-left: 0;
 }
 
+
 .skills ul li {
      margin-bottom: 10px;
 }
+
 
 /* Footer Styles */
 footer {
@@ -107,6 +125,7 @@ footer {
      padding: 10px 20px;
      margin-top: 30px;
 }
+
 
 footer p {
      margin: 0;
